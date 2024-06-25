@@ -64,18 +64,22 @@ header {
   color: white;
 }
 
-.main {
-  /* border: 2px solid red; */
-  /* width: 90%; */
+.main{
+  border: 2px solid red;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 2rem;
   padding: 2rem;
 }
+.headline{
+    font-size: 2rem;
+}
+
+
+
 
 .navbar-main {
-  /* border: 2px solid purple; */
   width: 15%;
   height: 450px;
   padding: 15px;
@@ -83,75 +87,54 @@ header {
   flex-direction: column;
   box-shadow: 7px 5px 15px black;
 }
+
 .navbar-main ul {
   list-style: none;
-  margin-top: 2rem;
+  padding: 0;
+  margin: 2rem 0 0 0;
   font-size: 1rem;
 }
+
 .navbar-main ul li {
-  width: 75%;
+  width: 100%;
   height: 2rem;
-  list-style: none;
   margin-top: 1.2rem;
   background-color: rgba(156, 145, 255, 0.6);
   border-radius: 10px;
   padding: 10px;
-}
-
-.paticipants {
-  /* border: 2px solid blue; */
-  width: 30%;
-  flex-direction: column;
-  box-shadow: 7px 5px 15px black;
-  flex-wrap: wrap;
-}
-
-.top1 {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 3rem;
-  gap: 2rem;
-  border: none;
-  border-bottom: 2px solid rgb(68, 68, 68);
-}
-.paticipants-div {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-.paticipants-div img {
-  width: 75px;
+
+
+.top{
+  border-bottom: 2px solid rgb(90, 90, 90);
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+.avatar1{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.avatar2{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.top-avatar{
+  display: flex;
+  gap: 1rem;
+  border: 2px solid rgb(221, 80, 186);
+  align-items: center;
+}
+
+.img-top img{
+  width: 85px;
   border-radius: 50%;
   border: 2px solid black;
-  margin-right: 15px;
 }
 
-.bottom {
-  /* border: 2px solid red; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 300px;
-}
-
-.text-div {
-  width: 300px;
-  height: 150px;
-  border: 2px solid red;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
-}
-.text-div img {
-  height: 100px;
-  width: 100px;
-  border: 6px solid rgb(144, 144, 206);
-  border-radius: 10px;
-}
-
-.textexp {
-  font-size: 0.6rem;
-}
